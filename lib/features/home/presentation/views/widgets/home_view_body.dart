@@ -1,5 +1,7 @@
 import 'package:bookly_application_course/core/utils/assets.dart';
 import 'package:bookly_application_course/core/utils/styles.dart';
+import 'package:bookly_application_course/features/constants.dart';
+import 'package:bookly_application_course/features/home/presentation/views/widgets/best_seller_list_view_item.dart';
 import 'package:bookly_application_course/features/home/presentation/views/widgets/custom_app_bar.dart';
 import 'package:bookly_application_course/features/home/presentation/views/widgets/custom_list_view_item.dart';
 import 'package:bookly_application_course/features/home/presentation/views/widgets/featured_lis_view.dart';
@@ -25,48 +27,6 @@ class HomeViewBody extends StatelessWidget {
             BestSellerListViewItem(),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class BestSellerListViewItem extends StatelessWidget {
-  const BestSellerListViewItem({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      height: 125,
-      child: Row(
-        children: [
-          AspectRatio(
-            aspectRatio: 2.5 / 4,
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.teal,
-                borderRadius: BorderRadius.circular(8),
-                image: const DecorationImage(
-                  fit: BoxFit.fill,
-                  image: AssetImage(AssetData.testImage),
-                ),
-              ),
-            ),
-          ),
-          const SizedBox(width: 30),
-
-          const Expanded(
-            child: Column(
-              children: [
-                Text(
-                  'Harry potter and the Goblet of Fire',
-                  style: Styles.textStyle20,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                ),
-              ],
-            ),
-          ),
-        ],
       ),
     );
   }
