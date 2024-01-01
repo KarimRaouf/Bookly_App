@@ -5,7 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
+import 'core/utils/cache_helper.dart';
+import 'core/utils/strings.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized(); // Ensure Flutter is initialized
+
+  // rememberMe = await CacheHelper.getSavedString('firstTime', '');
+
   runApp(const BooklyApp());
 }
 
@@ -25,4 +32,3 @@ class BooklyApp extends StatelessWidget {
     );
   }
 }
-
