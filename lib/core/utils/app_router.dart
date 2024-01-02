@@ -15,7 +15,7 @@ abstract class AppRouter {
     routes: [
       GoRoute(
         path: '/',
-        builder: (context, state) => ChatGPT(),
+        builder: (context, state) => SplashView(),
       ),
       GoRoute(
         path: kHomeView,
