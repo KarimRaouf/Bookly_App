@@ -43,7 +43,7 @@ class _ChatGPTState extends State<ChatGPT> {
   /// listen method.
   Future<void> _stopListening() async {
     await _speechToText.stop();
-    openAISercive.isArtPromptAPI(_lastWords);
+    // openAISercive.isArtPromptAPI(_lastWords);
     setState(() {});
   }
 
