@@ -2,7 +2,7 @@
 class Assets {
   Assets._();
 
-  static const String fontsGTSectraFineRegular = 'assets/fonts/GT Sectra Fine Regular.ttf';
+  static const String fontsGT_Sectra_Fine_Regular = 'assets/fonts/GT_Sectra_Fine_Regular.ttf';
   static const String imagesLogo = 'assets/images/Logo.png';
   static const String imagesTestImage = 'assets/images/test_image.png';
 
