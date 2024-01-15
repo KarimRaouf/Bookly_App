@@ -18,7 +18,7 @@ class HomeRepoImpl implements HomeRepo {
       BookModel bookModel = BookModel.fromJson(data);
       return right(bookModel.items!);
     } catch (error) {
-      return left(ServerFailure());
+      return left(ServerFailure(error.toString()));
     }
   }
 
