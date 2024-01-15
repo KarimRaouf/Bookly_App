@@ -1,3 +1,3 @@
 bool? rememberMe;
-String chatGPTKey = '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';
+String chatGPTKey = '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';
 String response = 'I can\'t response';

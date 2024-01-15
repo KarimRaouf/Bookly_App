@@ -52,6 +52,8 @@ dependencies:
   just_audio: ^0.9.36
   flutter_tts: ^3.8.5
   http: ^1.1.2
+  flutter_svg: ^2.0.9
+  lottie: ^3.0.0
 
 
 #  audioplayers: ^5.2.1
@@ -82,11 +84,13 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/images/background.png
     - assets/sounds/sound3.mp3
     - assets/sounds/
     - assets/sounds/sound1.mp3
     - assets/models/model.tflite
     - assets/models/scorer.scorer
+    - assets/animations/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -102,7 +106,7 @@ flutter:
   fonts:
     - family: GT Sectra Fine
       fonts:
-        - asset: assets/fonts/GT Sectra Fine Regular.ttf
+        - asset: assets/fonts/GT_Sectra_Fine_Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

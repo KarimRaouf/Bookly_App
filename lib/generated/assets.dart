@@ -2,13 +2,24 @@
 class Assets {
   Assets._();
 
+  static const String animationsLoading = 'assets/animations/loading.json';
+  static const String animationsRecord = 'assets/animations/record.json';
+  static const String assetsImagesBackground = 'assets/images/background.png';
+  static const String assetsModelsModel = 'assets/models/model.tflite';
+  static const String assetsModelsScorer = 'assets/models/scorer.scorer';
   static const String assetsSoundsSound1 = 'assets/sounds/sound1.mp3';
   static const String assetsSoundsSound3 = 'assets/sounds/sound3.mp3';
-  // static const String fontsGT Sectra Fine Regular = 'assets/fonts/GT Sectra Fine Regular.ttf';
+  static const String fontsGTSectraFineRegular = 'assets/fonts/GT_Sectra_Fine_Regular.ttf';
+  static const String imagesBackground = 'assets/images/background.png';
+  static const String imagesChatGPTLogo = 'assets/images/chatGPTLogo.svg';
+  static const String imageschatLogo = 'assets/images/GPTLogo.png';
+  static const String imagesChatgptLogo = 'assets/images/chatLogo.png';
   static const String imagesLogo = 'assets/images/Logo.png';
+  static const String imagesMich = 'assets/images/mich.svg';
+  static const String imagesRecord = 'assets/images/record.svg';
   static const String imagesTestImage = 'assets/images/test_image.png';
-  static const String modelsOutputGraphImamsTusersV2 = 'assets/models/model.tflite';
-  static const String modelsQuran = 'assets/models/scorer.scorer';
+  static const String modelsModel = 'assets/models/model.tflite';
+  static const String modelsScorer = 'assets/models/scorer.scorer';
   static const String sounds2 = 'assets/sounds/2.mp3';
   static const String soundsSound1 = 'assets/sounds/sound1.mp3';
   static const String soundsSound2 = 'assets/sounds/sound2.mp3';

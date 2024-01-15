@@ -1,6 +1,6 @@
 import 'package:bookly_application_course/features/home/presentation/views/book_details_view.dart';
 import 'package:bookly_application_course/features/home/presentation/views/home_view.dart';
-import 'package:bookly_application_course/features/out_of_scope_app/chat_GPT.dart';
+import 'package:bookly_application_course/features/out_of_scope_app/chat_GPT/chat_GPT.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../features/out_of_scope_app/deep_speech.dart';
